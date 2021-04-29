@@ -1,0 +1,20 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+// Variables
+@import "variables";
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+// Font Awesome
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+// bootstrap-select
+@import '~bootstrap-select/sass/bootstrap-select.scss';
+// date range picker
+@import "~bootstrap-daterangepicker/daterangepicker.css";
+@import '~sweetalert2/src/sweetalert2.scss';
+@import '~summernote/dist/summernote-bs4.css';
+@import '~bootstrap-table/src/bootstrap-table.scss';
+@import '~bootstrap-table/dist/extensions/sticky-header/bootstrap-table-sticky-header.css';
+@import '~bootstrap-table/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.css';
+@import '~gijgo/css/gijgo.css';
+@import '~simplemde/dist/simplemde.min.css';

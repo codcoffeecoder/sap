@@ -1,0 +1,12 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/manifest.js": "/js/manifest.js",
+    "/bootstrap/bootstrap-lib.css": "/bootstrap/bootstrap-lib.css",
+    "/bootstrap/bootstrap-lib.js": "/bootstrap/bootstrap-lib.js",
+    "/css/app.css": "/css/app.css",
+    "/bootstrap/editor-lib.js": "/bootstrap/editor-lib.js",
+    "/js/vendor.js": "/js/vendor.js",
+    "/js/all.js": "/js/all.js",
+    "/js/datatableformhandling.min.js": "/js/datatableformhandling.min.js",
+    "/css/all.css": "/css/all.css"
+}
