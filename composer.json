@@ -36,16 +36,16 @@
     },
     "scripts": {
         "pre-install-cmd": [
-            "composer config --global github-oauth.github.com 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"
+            "composer config github-oauth.github.com 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"
         ],
         "pre-update-cmd": [
-            "composer config --global github-oauth.github.com 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"
+            "composer config github-oauth.github.com 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"
         ],
         "pre-package-install": [
-            "composer config --global github-oauth.github.com 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"
+            "composer config github-oauth.github.com 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"
         ],
         "pre-package-update": [
-            "composer config --global github-oauth.github.com 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"
+            "composer config github-oauth.github.com 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"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",

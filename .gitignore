@@ -13,3 +13,4 @@ npm-debug.log
 yarn-error.log
 .phpintel/
 auth.json
+storage/debugbar/
