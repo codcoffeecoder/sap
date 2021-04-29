@@ -2,6 +2,7 @@ Requirements
 Composer, PHP 7.3 above or 8.0, Mariadb / Mysql latest 
 
 Steps
+1. git clone this repo
 1. cp .env.example .env
 1. 
     - Might need to change the db credentials in .env file. 
