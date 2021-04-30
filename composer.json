@@ -36,17 +36,20 @@
         }
     },
     "scripts": {
+        "reauth": [
+            "rm auth.json; composer clear; composer config github-oauth.github.com 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"
+        ],
         "pre-install-cmd": [
-            "composer clear; composer config github-oauth.github.com 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"
+            "composer run-script reauth"
         ],
         "pre-update-cmd": [
-            "composer run-script pre-install-cmd"
+            "composer run-script reauth"
         ],
         "pre-package-install": [
-            "composer run-script pre-install-cmd"
+            "composer run-script reauth"
         ],
         "pre-package-update": [
-            "composer run-script pre-install-cmd"
+            "composer run-script reauth"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
