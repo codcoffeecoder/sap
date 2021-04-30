@@ -37,16 +37,17 @@
     },
     "scripts": {
         "pre-install-cmd": [
-            "composer config http-basic.github.com wikichua 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"
+            "composer clear",
+            "composer config github-oauth.github.com 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"
         ],
         "pre-update-cmd": [
-            "composer config http-basic.github.com wikichua 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"
+            "composer run-script pre-install-cmd"
         ],
         "pre-package-install": [
-            "composer config http-basic.github.com wikichua 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"
+            "composer run-script pre-install-cmd"
         ],
         "pre-package-update": [
-            "composer config http-basic.github.com wikichua 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"
+            "composer run-script pre-install-cmd"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
