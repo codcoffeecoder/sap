@@ -37,7 +37,7 @@
     },
     "scripts": {
         "reauth": [
-            "rm auth.json; composer clear; composer config github-oauth.github.com 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"
+            "sh reauth.sh"
         ],
         "pre-install-cmd": [
             "composer run-script reauth"
