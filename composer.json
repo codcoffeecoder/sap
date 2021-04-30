@@ -20,7 +20,8 @@
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
-        "phpunit/phpunit": "^9.3.3"
+        "phpunit/phpunit": "^9.3.3",
+        "heroku/heroku-buildpack-php": "*"
     },
     "autoload": {
         "psr-4": {
@@ -36,16 +37,16 @@
     },
     "scripts": {
         "pre-install-cmd": [
-            "composer config github-oauth.github.com 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"
+            "composer config http-basic.github.com wikichua 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"
         ],
         "pre-update-cmd": [
-            "composer config github-oauth.github.com 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"
+            "composer config http-basic.github.com wikichua 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"
         ],
         "pre-package-install": [
-            "composer config github-oauth.github.com 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"
+            "composer config http-basic.github.com wikichua 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"
         ],
         "pre-package-update": [
-            "composer config github-oauth.github.com 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"
+            "composer config http-basic.github.com wikichua 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"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
