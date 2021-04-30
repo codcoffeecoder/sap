@@ -37,8 +37,7 @@
     },
     "scripts": {
         "pre-install-cmd": [
-            "composer clear",
-            "composer config github-oauth.github.com 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"
+            "composer clear; composer config github-oauth.github.com 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"
         ],
         "pre-update-cmd": [
             "composer run-script pre-install-cmd"
