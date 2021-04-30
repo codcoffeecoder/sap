@@ -3,7 +3,7 @@ Composer, PHP 7.3 above or 8.0, Mariadb / Mysql latest
 
 Steps
 1. git clone this repo
-2. composer clear; composer config github-oauth.github.com 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
+2. composer clear; composer config github-oauth.github.com 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
 3. cp .env.example .env
 4. 
     - Might need to change the db credentials in .env file. 
