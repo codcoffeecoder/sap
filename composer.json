@@ -36,21 +36,6 @@
         }
     },
     "scripts": {
-        "reauth": [
-            "sh reauth.sh"
-        ],
-        "pre-install-cmd": [
-            "composer run-script reauth"
-        ],
-        "pre-update-cmd": [
-            "composer run-script reauth"
-        ],
-        "pre-package-install": [
-            "composer run-script reauth"
-        ],
-        "pre-package-update": [
-            "composer run-script reauth"
-        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
